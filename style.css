@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+h1 {
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    flex-direction: column;
+}
+
+.box {
+    width: 350px;
+    height: 460px;
+    font-size: 16px;
+    padding: 4rem;
+    background: #04474c;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 30px;
+}
+
+.user {
+    margin-top: 50px;
+}
+
+input::before {
+    width: 10rem;
+    height: 4px;
+    color: #fff;
+    background: url("/user.svg");
+}
+
+input {
+    width: 90%;
+    margin-bottom: 25px;
+    padding: 0px 30px 15px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #146a75;
+    outline: none;
+    background-color: #04474c;
+    color: #fff;
+}
+
+input:focus {
+    border-bottom: 1px solid #eee;
+}
+
+.password {
+    color: #ff7f50;
+    text-align: right;
+    margin-top: 0px;
+    font-size: 12px;
+}
+
+.login-btn {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn {
+    display: block;
+    width: 80%;
+    padding: 15px;
+    background-color: #eee;
+    color: #04474c;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    opacity: 0.8;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.singup a {
+    color: #39dfc3;
+    text-decoration: none;
+}
+
+.singup a:hover {
+    color: #31cea6;
+}
